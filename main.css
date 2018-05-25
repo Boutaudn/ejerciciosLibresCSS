@@ -1,0 +1,37 @@
+.caja {
+    height:400px;
+    width: 400px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.caja-dos {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    position: absolute;
+}
+
+#red {
+    background-color: red;
+}
+
+#purple {
+    background-color: blueviolet;
+}
+
+.caja-tres {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    position: absolute;
+}
+
+#yellow {
+    background-color: yellow;
+    top: 5px;
+}
+
+#blue {
+    background-color: blue;
+}
