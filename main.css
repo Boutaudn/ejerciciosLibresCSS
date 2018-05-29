@@ -1,15 +1,24 @@
 .caja {
     height:400px;
     width: 400px;
-    margin: 5px;
-    display: inline-block;
+    display: absolute;
 }
 
 .caja-dos {
     height: 200px;
     width: 200px;
-    margin: 5px;
     position: absolute;
+}
+
+.caja-tres {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.cuadro {
+    margin: 5px;
+    display: inline;
 }
 
 #red {
@@ -17,21 +26,28 @@
 }
 
 #purple {
+    top: 125px;
+    left: 110px;
     background-color: blueviolet;
 }
 
-.caja-tres {
-    height: 100px;
-    width: 100px;
-    margin: 5px;
-    position: absolute;
-}
-
 #yellow {
+    top: 125px;
+    left: 110px;
     background-color: yellow;
-    top: 5px;
 }
 
 #blue {
     background-color: blue;
+}
+
+#green {
+    top: 545px;
+    left: 110px;
+    background-color: green;
+}
+
+#black {
+    top: 445px;
+    background-color: black;
 }
